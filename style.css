@@ -1,0 +1,128 @@
+      header section
+.header{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 144, 14, 0.1);
+}
+.header-right-side{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+}
+.logo, .title-name{
+    color:#131313;
+}
+.logo{
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+.nav li> a{
+    text-decoration:none;
+}
+.title{
+    text-align: center;
+    line-height: 10px;
+}
+.title-name{
+    font-weight: 700;
+    font-size: 35px;
+}
+.title-description{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 20px;
+}
+.btn-1{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 22px 22px ;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    align-items: center;
+    background-color: orange;
+    border: 0;
+    border-radius: 5px;
+    }
+.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 45px;
+}
+/* main section? */
+.section-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.section-2-image> img{
+    width: 342px;
+    height: 342px;
+    }
+.section-2-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 8px;
+    gap: 10px;
+}
+.title-section-2{
+    margin-left: 50px;
+}
+.title-2{
+    font-weight: 500;
+    font-size: 45px;
+}
+.title-color-1{
+    color: #727272;
+}
+.title-color-2{
+    color: #131313;
+}
+.title-color-3{
+    color:#FF900E;
+}
+.title-2-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.btn-2{
+        margin-top: 20px;
+        padding: 22px 22px ;
+        font-weight: 600;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 180px;
+        height: 64px;
+        align-items: center;
+        background-color: orange;
+        border: 0;
+        border-radius: 5px;
+}
+/* next section-3 */
+.section-3{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
